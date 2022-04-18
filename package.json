@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "name": "u4c2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "server" :"json-server --watch db.json --port 5000",
+    "hooks":"npm start --prefix hooks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
